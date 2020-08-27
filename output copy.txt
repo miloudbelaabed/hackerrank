@@ -1,0 +1,19 @@
+s outside of condition: 2
+s outside of condition: 3
+s outside of condition: ,
+str[i] inside of loop: ,
+conca: 23
+s outside of condition: 4
+s outside of condition: ,
+str[i] inside of loop: ,
+conca: 4
+s outside of condition: 5
+s outside of condition: 6
+its happen 6
+i: 5conca 5
+i: 6conca 56
+23
+4
+5
+56
+last element in s 6
