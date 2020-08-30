@@ -29,31 +29,7 @@ int main() {
       *itr == min ? (cout <<"Yes "<<(itr-vec.begin()+1)<<endl ):(cout << "No "<<(itr-vec.begin()+1)<<endl );
      
   }
-/* 
-    for (size_t i = 0; i < q; i++)
-    {
-      int j = t[i];
-      for (size_t k = 0; k < n; k++)
-      {
-   
-       if (j==vec[k]){
-          cout << "Yes " << k+1 <<endl;
-          break;
-        }else{
-          if(vec[k]>j) {
-          cout << "No " << k+1 <<endl; 
-          break;
-          }
-        }
-      
-      
-        
-      }
 
-        
-      } */
-      
-    
     
   return 0;
 
