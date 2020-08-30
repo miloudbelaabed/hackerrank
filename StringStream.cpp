@@ -3,12 +3,35 @@
 #include <sstream>
 #include <string>
 using namespace std;
+
+vector<int> parseInts2(string str) {
+	vector<int>parser;
+		string conca = "";
+		str=str+'e';
+	
+	for (size_t i=0;i<str.length();i++) {
+ 
+		if ((str[i]==',') || (i == str.size()-1)){ 
+			stringstream geek(conca);
+					int x;
+					geek >> x; 
+					parser.push_back(x);
+					conca ="";
+		}else {
+			conca+=str[i];
+
+		}
+	}
+}
+
 vector<int> parseInts(string str) {
 	vector<char>p;
 	vector<int>parser;
+		
 	
 	for (size_t i=0;i<str.length();i++) {
-		if (str[i]==','){ 
+
+ 	if (str[i]==','){ 
 			string conca = "";
 			for (auto i:p)
 			{
@@ -36,10 +59,14 @@ vector<int> parseInts(string str) {
 
 				}else 
 					p.push_back(str[i]);		
+
+				} 
+
 		} 
-}
 	return parser;
+ 
 }
+
 int main(){
 
 	  ios_base::sync_with_stdio(false);
