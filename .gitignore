@@ -1,7 +1,7 @@
 input.txt
 output.txt
-.exe
+*.exe
 a.exe
-w.exe
+
 test.cpp
 .vscode
